@@ -10,7 +10,7 @@ jobs:
         with:
           command: |
             cd public_html/e-commerce.rihana-hotel.com
-            git pull https://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@github.com/const-tech/e-e-commerce-graduation.git
+            git pull https://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@github.com/const-tech/e-commerce-graduation.git
             /opt/cpanel/ea-php81/root/usr/bin/php artisan migrate
             /opt/cpanel/ea-php81/root/usr/bin/php artisan optimize:clear
 
