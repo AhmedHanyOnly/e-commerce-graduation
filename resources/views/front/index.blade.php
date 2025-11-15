@@ -62,6 +62,7 @@
                                 alt="{{ $latest->name }}" />
                         </a>
 
+                        
                         <!-- Product Details -->
                         <div class="product-details">
                             <!-- Category -->
