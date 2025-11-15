@@ -82,10 +82,10 @@
                             <!-- Price Section -->
                             <div class="product-price">
                                 @if ($latest->discounted_price)
-                                <span class="original-price">{{ $latest->sell_price }} {{ __('SAR') }}</span>
-                                <span class="discounted-price">{{ $latest->discounted_price }} {{ __('SAR') }}</span>
+                                <span class="original-price">{{ $latest->sell_price }} {{ setting('currency') }}</span>
+                                <span class="discounted-price">{{ $latest->discounted_price }} {{ setting('currency') }}</span>
                                 @else
-                                <span class="regular-price">{{ $latest->sell_price }} {{ __('SAR') }}</span>
+                                <span class="regular-price">{{ $latest->sell_price }} {{ setting('currency') }}</span>
                                 @endif
                             </div>
 
@@ -107,7 +107,7 @@
     </div>
 </section>
 
- @if ($banner && $banner->image_one) 
+ @if ($banner && $banner->image_one)
 <section class="main-ad">
     <img src="{{ display_file($banner->image_one) }}" alt="" />
 </section>
@@ -117,7 +117,7 @@
     <img src="{{ asset('front-asset/img/ad-1.svg') }}" alt="" />
 </section>
 @endif
-@endif 
+@endif
 @if (setting('most_sold_products') == 1)
 <section class="mb-5">
     <div class="container-xxl">
@@ -161,10 +161,10 @@
 
                             <div class="product-price">
                                 @if ($sold->discounted_price)
-                                <span class="original-price">{{ $sold->sell_price }} {{ __('SAR') }}</span>
-                                <span class="discounted-price">{{ $sold->discounted_price }} {{ __('SAR') }}</span>
+                                <span class="original-price">{{ $sold->sell_price }} {{ setting('currency') }}</span>
+                                <span class="discounted-price">{{ $sold->discounted_price }} {{ setting('currency') }}</span>
                                 @else
-                                <span class="regular-price">{{ $sold->sell_price }} {{ __('SAR') }}</span>
+                                <span class="regular-price">{{ $sold->sell_price }} {{ setting('currency') }}</span>
                                 @endif
                             </div>
 
@@ -277,11 +277,11 @@
 
                             <div class="product-price">
                                 @if ($offer_item->discounted_price)
-                                <span class="original-price">{{ $offer_item->sell_price }} {{ __('SAR') }}</span>
+                                <span class="original-price">{{ $offer_item->sell_price }} {{ setting('currency') }}</span>
                                 <span class="discounted-price">{{ $offer_item->discounted_price }}
-                                    {{ __('SAR') }}</span>
+                                    {{ setting('currency') }}</span>
                                 @else
-                                <span class="regular-price">{{ $offer_item->sell_price }} {{ __('SAR') }}</span>
+                                <span class="regular-price">{{ $offer_item->sell_price }} {{ setting('currency') }}</span>
                                 @endif
                             </div>
 

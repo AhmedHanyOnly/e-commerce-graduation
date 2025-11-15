@@ -1,0 +1,22 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run migrations , clear cache for views, config and routes
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd public_html/e-commerce.rihana-hotel.com
+            git pull https://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@github.com/const-tech/e-e-commerce-graduation.git
+            /opt/cpanel/ea-php81/root/usr/bin/php artisan migrate
+            /opt/cpanel/ea-php81/root/usr/bin/php artisan optimize:clear
+
+          host: 65.108.65.217
+          user: rihanahotel
+          port: 2649
+          key: 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
+          pass: "kkcB-s1X,A!9"
+          args: -tt
