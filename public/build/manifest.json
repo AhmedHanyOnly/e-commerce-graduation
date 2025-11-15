@@ -1,0 +1,48 @@
+{
+  "public/front-asset/img/serv-land.svg": {
+    "file": "assets/serv-land-3e2e21fd.svg",
+    "src": "public/front-asset/img/serv-land.svg"
+  },
+  "public/front-asset/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-e523f49c.ttf",
+    "src": "public/front-asset/webfonts/fa-brands-400.ttf"
+  },
+  "public/front-asset/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-404c746c.woff2",
+    "src": "public/front-asset/webfonts/fa-brands-400.woff2"
+  },
+  "public/front-asset/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-4e96a7e0.ttf",
+    "src": "public/front-asset/webfonts/fa-regular-400.ttf"
+  },
+  "public/front-asset/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-6a274e76.woff2",
+    "src": "public/front-asset/webfonts/fa-regular-400.woff2"
+  },
+  "public/front-asset/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-03f2986c.ttf",
+    "src": "public/front-asset/webfonts/fa-solid-900.ttf"
+  },
+  "public/front-asset/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-d76fb4e8.woff2",
+    "src": "public/front-asset/webfonts/fa-solid-900.woff2"
+  },
+  "public/front-asset/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-86a687cf.ttf",
+    "src": "public/front-asset/webfonts/fa-v4compatibility.ttf"
+  },
+  "public/front-asset/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-0db31bef.woff2",
+    "src": "public/front-asset/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-e02d40df.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-a34f9d14.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

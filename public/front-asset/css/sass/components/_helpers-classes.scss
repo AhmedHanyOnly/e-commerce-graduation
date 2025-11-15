@@ -1,0 +1,29 @@
+.text-main-color {
+    color: $main-color;
+}
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.row-gap-24 {
+    row-gap: 24px;
+}
+.fs-10px {
+    font-size: 10px !important;
+}
+.fs-11px {
+    font-size: 11px !important;
+}
+.fs-12px {
+    font-size: 12px !important;
+}
+.fs-13px {
+    font-size: 13px !important;
+}
+.fs-14px {
+    font-size: 14px !important;
+}
+
+[v-cloak] {
+    display: none;
+}

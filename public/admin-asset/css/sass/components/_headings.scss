@@ -1,0 +1,46 @@
+.main-title {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 1rem;
+    .small {
+        font-size: 18px;
+        color: #000000;
+        opacity: 0.5;
+    }
+    .large {
+        font-weight: 500;
+        font-size: 30px;
+        color: #000000;
+    }
+}
+
+//
+.breadcrumb {
+    padding: 0 !important;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    background: transparent !important;
+    .breadcrumb-item {
+        font-size: 18px;
+        color: #000000;
+        opacity: 0.5;
+        &.active {
+            font-weight: 500;
+            font-size: 30px;
+            opacity: 1;
+        }
+    }
+}
+.header-order {
+    .title {
+        font-size: 32px;
+        font-weight: 600;
+        padding: 5px 0;
+        line-height: 35px;
+    }
+    .date {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

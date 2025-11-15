@@ -1,0 +1,61 @@
+<?php
+$map = ['create', 'read', 'update', 'delete'];
+$map_settings = ['read', 'update'];
+
+return [
+    'models' => [
+        // ---- Admin Permissions ---- //
+        'users' => $map,
+        'roles' => $map,
+        'clients' => $map,
+        'vendors' => $map,
+        'programs' => $map,
+        'cities' => $map,
+        'neighborhoods' => $map,
+        'categories' => $map,
+        'sub_categories' => $map,
+        'product_types' => $map,
+        'product_categories' => $map,
+        'products' => $map,
+        'orders' => $map,
+        'maintenance_orders' => $map,
+        'articles' => $map,
+        'articles_categories' => $map,
+        'menus' => $map,
+        'pages' => $map,
+        'messages' => $map,
+        'notifications' => $map,
+        'contact_us' => $map,
+        'email_menu' => $map,
+        'email_subscriptions' => ['create'],
+        'library' => $map,
+        'tickets' => $map,
+        'bank_accounts' => $map,
+        'colors' => $map,
+        'sizes' => $map,
+        'designs' => $map,
+        'carts' => $map,
+        'product_comments' => $map,
+
+        'settings' => $map_settings,
+        'privacy_policy' => $map_settings,
+        'usage_policy' => $map_settings,
+        'about_us' => ['update'],
+        'banner' => ['update'],
+        'terms' => ['update'],
+        'success_payment' => ['update'],
+        'translations' => ['read'],
+        'dashboard' => ['read'],
+        'product_report' => ['read'],
+        'visitors' => ['read'],
+
+        // ---- Client-Side Permissions ---- //
+        'client_profile' => ['read', 'update'],
+        'client_cart' => ['read', 'update'],
+        'client_favorites' => ['read', 'create', 'delete'],
+        'client_tickets' => ['create', 'read', 'update'],
+        'client_orders' => ['read', 'rate'],
+        'client_notifications' => ['read', 'delete'],
+        'client_comments' => ['create', 'reply', 'rate'],
+    ],
+];

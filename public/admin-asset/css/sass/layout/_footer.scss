@@ -1,0 +1,15 @@
+.app {
+    .main-footer {
+        width: calc(100% - 216px);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 10px 15px 7px;
+        text-align: center;
+        background: #ffffff;
+        border-top: 1px solid #e6e6e6;
+    }
+    &.active .main-footer {
+        width: calc(100% - 50px);
+    }
+}

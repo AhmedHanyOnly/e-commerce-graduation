@@ -1,0 +1,47 @@
+.main-btn {
+    border-radius: 50px;
+    background: $main-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding: 7px 33px;
+    width: fit-content;
+    cursor: pointer;
+    color: #fff ;
+    font-size: 12px;
+    font-weight: 700;
+    outline: 0;
+    line-height: normal;
+    transition: 300ms;
+    &.xl {
+        padding-left: 93px;
+        padding-right: 93px;
+    }
+    &.white {
+        background-color: #fff;
+        border: 2px solid $main-color;
+        color: $main-color;
+    }
+    &:hover{
+        scale: 1.02;
+    }
+}
+
+.btn-filter {
+    background-color: transparent;
+    border: 1px solid $main-color;
+    color: $main-color;
+    font-size: 16px;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    &.btn-fill {
+        color: white;
+        background-color: $main-color;
+    }
+}

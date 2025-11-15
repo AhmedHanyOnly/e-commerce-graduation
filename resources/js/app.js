@@ -1,0 +1,4 @@
+
+import '../../public/front-asset/js/bootstrap.bundle.min.js'
+import '../../public/front-asset/js/all.min.js'
+import'../../public/front-asset/js/main.js'
